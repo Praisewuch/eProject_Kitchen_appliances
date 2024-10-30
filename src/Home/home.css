@@ -1,0 +1,300 @@
+.slider {
+  width: 100%;
+  background-color: grey;
+  height: 271px;
+}
+body {
+  font-family: "Rubik";
+}
+.star {
+  display: flex;
+  gap: 4px;
+}
+.box-slider {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+}
+.layer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  color: gold;
+}
+.layer2 {
+  line-height: 1.2em;
+}
+.price {
+  margin-top: -5px;
+}
+.glas {
+  color: red;
+}
+.slide1 {
+  height: 498px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
+}
+.bigger {
+  font-size: 600px;
+}
+.text > p {
+  margin-top: -40px;
+  margin-bottom: 15px;
+}
+.btn1 {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: #3e3e3e;
+  margin-top: 30px;
+  width: 140px;
+  padding-top: 9px;
+  border-radius: 100px;
+  height: 26px;
+  display: flex;
+  align-item: center;
+  justify-content: center;
+}
+.btn1:hover {
+  background-color: #be3144;
+}
+.text > h2 {
+  font-size: 60px;
+  margin-top: -19px;
+  margin-bottom: 5px;
+}
+.space {
+  width: 145px;
+}
+.text {
+  display: flex;
+  margin-left: -100px;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.slide1 {
+  width: 100%;
+}
+.newArrivials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ul {
+  width: 350px;
+  display: block;
+  font-size: 13px;
+  display: flex;
+  justify-content: left;
+  gap: 8%;
+  list-style-type: none;
+}
+.gridbox {
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  display: flex;
+  gap: 30px;
+}
+.ah2 {
+  fontsize: 60px;
+}
+.ap {
+  fontsize: 24px;
+}
+@media screen and (max-width: 768px) {
+  .display{
+    display:none;
+  }
+ .bottom{
+  display:none;
+ }
+  .foot{
+    margin-top: 900px;
+    display:flex;
+    flex-direction: column;
+  }
+  .row1,.row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box2 {
+    display: none;
+  }
+  .gridbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .upcomming {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-slider {
+    display: flex;
+    flex-direction: column;
+  }
+  .size-img {
+    width: 200px;
+    height: 200px;
+  }
+  .text {
+    margin-left: 20px;
+  }
+  .space {
+    display: none;
+  }
+  .slide1 {
+    width: 100%;
+    height: 200px;
+  }
+  .text > h2 {
+    font-size: 20px;
+  }
+}
+.img1 {
+  background-image: url("../images/imag1.jpg");
+}
+.img2 {
+  background-image: url("../images/dishes.jpg");
+}
+.img3 {
+  background-image: url("../images/fork-plate.jpg");
+}
+.row2 {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+.box3 {
+  width: 196.6px;
+  height: 247.56px;
+}
+.box2 {
+  width: 570px;
+  height: 340px;
+}
+.Trending > h1 {
+  margin-bottom: -5px;
+}
+.Trending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons-row {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 6%;
+}
+.p3 {
+  margin-top: -20px;
+}
+.icon-box1 > .p2,
+.p3 {
+  font-size: 15px;
+  color: grey;
+}
+.icon-box1 > .p1 {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 17px;
+  margin-bottom: -16px;
+}
+.icon-box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.upcomming {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+.sales {
+  margin-bottom: 10px;
+}
+.top-box1 {
+  margin-top: 20px;
+  width: 160px;
+}
+.top-box {
+  width: 160px;
+}
+.sentence-box2 {
+  margin-left: -80px;
+}
+.sentence-box,
+.sentence-box2 {
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+div > h2 {
+  margin-bottom: -20px;
+}
+.p {
+  font-size: 20px;
+}
+.up {
+  margin-top: 60px;
+}
+.box3 > h2,
+.box3 > p {
+  margin-left: -140px;
+  margin-top: 40px;
+}
+.box3 {
+  width: 270px;
+  height: 340px;
+}
+
+.image1 {
+  background-image: url("../images/fork.jpg");
+}
+.image2 {
+  background-image: url("../images/apron2.jpg");
+}
+.image3 {
+  background-image: url("../images/cloth.jpg");
+}
+.image4 {
+  background-image: url("../images/glasscup.jpg");
+}
+.image5 {
+  background-image: url("../images/ceramiccup.jpg");
+}
+.image6 {
+  background-image: url("../images/silverapple.jpg");
+}
+.box1 {
+  width: 370px;
+  height: 370px;
+}
+.box1,
+.box3 {
+  background-color: gray;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: column;
+  align-items: center;
+}

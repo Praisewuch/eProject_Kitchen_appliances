@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    gap: 20px;
+}
+.bag-icon {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.side-icons {
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon-btn {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+.side-icon {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.love-icon {
+  color: #e57373;
+}
+
+.refresh-icon {
+  color: #4caf50;
+}
+
+.search-icon {
+  color: #42a5f5;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+ 
+   .card{
+    gap: 0px;
+   }
+
+}
+

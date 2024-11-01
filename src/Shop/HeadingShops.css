@@ -7,7 +7,7 @@
     width: 100%;
     background-color: #f6f6f6;
     height: 273px;
-    margin-top: 122px;
+    margin-top: 50px;
     text-align: center;
 
 
@@ -19,13 +19,13 @@
     /* font-weight: light; */
     
 }
-.img1{
+.imge1{
     width: 9%;
     margin-left: -833px;
     position: absolute;
 }
 
-.img2{
+.imge2{
     width: 24%;
     margin-left: 483px;
     position: absolute;
@@ -33,7 +33,7 @@
 
 @media (max-width: 768px) {
 
-     .img2{
+     .imge2{
         display: none;
      }
  

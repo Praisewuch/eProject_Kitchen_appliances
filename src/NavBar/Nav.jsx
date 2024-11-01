@@ -4,6 +4,7 @@ import { CgShoppingCart } from "react-icons/cg";
 import { CiSettings } from "react-icons/ci";
 import { FaAngleDown } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -16,12 +17,12 @@ const Nav = () => {
       <ul className="list">
         <li className="dropdown">
           <div className="left red1">
-            HOME
+            <Link to={'/'} className="link">HOME</Link>
             <FaAngleDown />
           </div>
         </li>
         <li className="left red2">
-          SHOP
+          <Link to='/shops' className="link">SHOP</Link>
           <FaAngleDown />
         </li>
         <li className="left red3">

@@ -6,8 +6,8 @@ function HeadingShops() {
   return (
     <>
     <div className='Firstdiv'>
-        <img className='img1' src={img2} alt="" />
-      <img className='img2' src={img} alt="" />
+        <img className='imge1' src={img2} alt="" />
+      <img className='imge2' src={img} alt="" />
        <br /><br />
         <h1 className='textone'>Shops</h1>
         <p><a href="">shop / Home</a></p>

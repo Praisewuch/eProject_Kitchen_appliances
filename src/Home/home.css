@@ -96,6 +96,13 @@ body {
   gap: 8%;
   list-style-type: none;
 }
+.link{
+  text-decoration: none;
+  color: black;
+}
+.link:hover{
+  color: red;
+}
 .gridbox {
   display: flex;
   flex-direction: column;
@@ -287,7 +294,7 @@ div > h2 {
   background-image: url("../images/silverapple.jpg");
 }
 .box1 {
-  width: 370px;
+  width: 380px;
   height: 370px;
 }
 .box1,

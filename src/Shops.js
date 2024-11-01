@@ -8,6 +8,7 @@ import Sidebar from "./Shop/Sidebar/Sidebar";
 import Card from "./Shop/components/Card";
 import "./index.css";
 import HeadingShops from "./Shop/HeadingShops";
+import Nav from "./NavBar/Nav";
 
 function  Shops() {
 
@@ -75,6 +76,7 @@ function  Shops() {
   
   return (
     <>
+    <Nav/>
     <HeadingShops/>
       <Sidebar handleChange={handleChange} />
       <Navigation query={query} handleInputChange={handleInputChange} />

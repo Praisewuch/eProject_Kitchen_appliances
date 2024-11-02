@@ -47,40 +47,40 @@ const Trending = () => {
       </div>
       <div className="gridboxes">
         <div className="rowe1">
-          <div className="boxe2 images1">
+          <div className="boxe2 images1 disp">
             <h2>
               Cutlery
             </h2>
-            <p className="underline">
+            <a href="/shops" className="underline">
               Shop now
-            </p>
+            </a>
           </div>
           <div className="boxe3 images2">
             <h2>Apron</h2>
-            <p className="underline">Shop now</p>
+            <p><a href="/shops" className="underline">Shop now</a></p>
           </div>
           <div className="boxe3 images3">
             <h2>Napkins</h2>
-            <p className="underline">Shop now</p>
+            <p><a href="/shops" className="underline">Shop now</a></p>
           </div>
         </div>
 
         <div className="rowe2">
           <div className="boxe3 images4">
             <h2>Pitchers</h2>
-            <p className="underline">Shop now</p>
+            <p><a href="/shops" className="underline">Shop now</a></p>
           </div>
-          <div className="boxe2 images5">
+          <div className="boxe2 images5 disp">
             <h2>
               Dinnerware
             </h2>
-            <p className="underline">
+            <a href="/shops" className="underline">
               Shop now
-            </p>
+            </a>
           </div>
           <div className="boxe3 images6">
             <h2 style={{marginLeft: -90}}>Accessories</h2>
-            <p className="underline">Shop now</p>
+            <p><a href="/shops" className="underline">Shop now</a></p>
           </div>
         </div>
       </div>

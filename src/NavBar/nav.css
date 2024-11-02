@@ -107,6 +107,9 @@
   
   /* Show hamburger on smaller screens */
   @media (max-width: 768px) {
+    .disp{
+      display:none;
+    }
     .hamburger {
       display: block;
       cursor: pointer;

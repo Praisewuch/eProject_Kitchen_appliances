@@ -13,11 +13,11 @@ const NewArrivials = () => {
     <div className='newArrivials'>
       <h1>New Arrivials</h1>
       <p>Accumsan vitae pede lacus ut ullamcorper sollictundin qusique libero est.</p>
-      <nav>
+      <nav className='disp'>
         <ul className='ul'>
         <li className='glas'>GLASSWARE</li>
-        <li>PLACEMATS</li>
-        <li>CUTLERY</li>
+        <li className='disp'>PLACEMATS</li>
+        <li className='disp'>CUTLERY</li>
         <li>NAPKINS</li>
         </ul>
       </nav>

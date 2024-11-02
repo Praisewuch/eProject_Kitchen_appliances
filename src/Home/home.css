@@ -121,8 +121,8 @@ body {
 }
 @media screen and (max-width: 768px) {
   .footers{
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 200px;
+    background-color:white;
   }
   .display{
     display:none;
@@ -257,6 +257,10 @@ body {
   margin-top: 20px;
   width: 160px;
 }
+a{
+  display:block;
+  color:grey;
+}
 .top-box {
   width: 160px;
 }
@@ -271,6 +275,10 @@ body {
 .underline {
   text-decoration: underline;
   text-decoration-color: red;
+}
+.underline:hover{
+  color: rgba(100,0,0,0.2);
+  text-decoration-color:white;
 }
 div > h2 {
   margin-bottom: -20px;

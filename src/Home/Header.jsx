@@ -18,7 +18,7 @@ const Header = () => {
             <p className="p">Collection</p>
           </div>
           <div className="top-box">
-            <p className="underline">Discover Now</p>
+            <p><a href="/shops" className="underline">Discover Now</a></p>
           </div>
         </div>
 
@@ -41,7 +41,7 @@ const Header = () => {
             <p className="p">FlatWare</p>
           </div>
           <div className="top-box">
-            <p className="underline">Discover Now</p>
+            <p><a href="/shops" className="underline">Discover Now</a></p>
           </div>
         </div>
       </div>

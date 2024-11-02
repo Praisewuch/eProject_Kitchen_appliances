@@ -120,7 +120,7 @@ body {
   fontsize: 24px;
 }
 @media screen and (max-width: 768px) {
-  .footer{
+  .footers{
     height: 500px;
     padding-bottom: 900px;
   }
@@ -130,7 +130,7 @@ body {
  .bottom{
   display:none;
  }
-  .foot{
+  .foote{
     margin-top: 900px;
     display:flex;
     flex-direction: column;

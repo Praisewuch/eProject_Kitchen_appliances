@@ -468,8 +468,11 @@
   }
   
   
-  
   @media only screen and (max-width: 2000px) {
+    .logo-box{
+      margin-left: 200px;
+      margin-right: -400px;
+    }
     .designTextHolder {
       gap: 10em;
     }
@@ -509,6 +512,10 @@
   }
   
   @media only screen and (max-width: 768px) {
+    .logo-box{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
     .navbarHolder {
       padding: 1em;
     }

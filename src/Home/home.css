@@ -103,13 +103,15 @@ body {
 .link:hover{
   color: red;
 }
-.gridbox {
+.gridboxes{
   display: flex;
   flex-direction: column;
 }
-.row1 {
+.rowe1 {
   display: flex;
   gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 .ah2 {
   fontsize: 60px;
@@ -118,6 +120,10 @@ body {
   fontsize: 24px;
 }
 @media screen and (max-width: 768px) {
+  .footer{
+    height: 500px;
+    padding-bottom: 900px;
+  }
   .display{
     display:none;
   }
@@ -128,18 +134,20 @@ body {
     margin-top: 900px;
     display:flex;
     flex-direction: column;
+    width: 100%;
+    height: 20px;
   }
-  .row1,.row2 {
+  .rowe1,.rowe2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .box2 {
+  .boxe2 {
     display: none;
   }
-  .gridbox {
+  .gridboxs {
     display: flex;
     flex-direction: column;
   }
@@ -178,18 +186,26 @@ body {
 .img3 {
   background-image: url("../images/fork-plate.jpg");
 }
-.row2 {
-  margin-top: 10px;
+.rowe2 {
+  margin-top: -10px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
 }
-.box3 {
+.boxe3 {
   width: 196.6px;
   height: 247.56px;
 }
-.box2 {
+.boxe2{
+  display:flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  gap: 20px;
   width: 570px;
   height: 340px;
+  margin-bottom: -68px;
 }
 .Trending > h1 {
   margin-bottom: -5px;
@@ -265,40 +281,40 @@ div > h2 {
 .up {
   margin-top: 60px;
 }
-.box3 > h2,
-.box3 > p {
+.boxe3 > h2,
+.boxe3 > p {
   margin-left: -140px;
   margin-top: 40px;
 }
-.box3 {
+.boxe3 {
   width: 270px;
   height: 340px;
 }
 
-.image1 {
+.images1 {
   background-image: url("../images/fork.jpg");
 }
-.image2 {
+.images2 {
   background-image: url("../images/apron2.jpg");
 }
-.image3 {
+.images3 {
   background-image: url("../images/cloth.jpg");
 }
-.image4 {
+.images4 {
   background-image: url("../images/glasscup.jpg");
 }
-.image5 {
+.images5 {
   background-image: url("../images/ceramiccup.jpg");
 }
-.image6 {
+.images6 {
   background-image: url("../images/silverapple.jpg");
 }
-.box1 {
+.boxe1 {
   width: 380px;
   height: 370px;
 }
-.box1,
-.box3 {
+.boxe1,
+.boxe3 {
   background-color: gray;
   display: flex;
   margin-top: 70px;

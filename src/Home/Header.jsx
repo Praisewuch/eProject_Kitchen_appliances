@@ -9,7 +9,7 @@ const Header = () => {
     <div>
       <Swiper/>
       <div className="upcomming">
-        <div className="box1 img1">
+        <div className="boxe1 img1">
           <div className="top-box1">
             <p>Top Trending</p>
           </div>
@@ -22,7 +22,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="box1 img2">
+        <div className="boxe1 img2">
           <p className="up">Black Fridays</p>
           <div className="sentence-box">
             <h2 className="sales">Sale Up To 50% Off</h2>
@@ -32,7 +32,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="box1 img3">
+        <div className="boxe1 img3">
           <div className="top-box1">
             <p>New Arrivals</p>
           </div>

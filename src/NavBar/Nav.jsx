@@ -5,8 +5,17 @@ import { CiSettings } from "react-icons/ci";
 import { FaAngleDown } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import './nav.css'
 
 const Nav = () => {
+
+  const [menuOpen, setMenuOpen]  = useState(false);
+
+  const toggleMenu = () => {
+    console.log('james')
+    setMenuOpen(!menuOpen);
+  };
   return (
     <div className="nav">
       <div className="logo-box">
@@ -30,14 +39,32 @@ const Nav = () => {
           <FaAngleDown />
         </li>
         <li className="left red4">
-          BLOG
+        <Link to='/contact' className="link">CONTACT</Link>
           <FaAngleDown />
         </li>
         <li>ABOUTUS</li>
-        <li>CONTACT</li>
       </ul>
+      <div className={`linksHolder ${menuOpen ? "active" : ""}`}>
+          <ul>
+            <Link to="/" className="li">
+              <li>Home</li>
+            </Link>
+            <Link to="/Shops" className="li">
+              <li>Shops</li>
+            </Link>
+            <Link to="/contact" className="li">
+              <li>Contact</li>
+            </Link>
+            <Link to="/about" className="li">
+              <li>About</li>
+            </Link>
+            <Link to="/help" className="li">
+              <li>Helpe</li>
+            </Link>
+          </ul>
+        </div>
       <div className="icon-box">
-        <GiHamburgerMenu />
+        <GiHamburgerMenu  onClick={toggleMenu}/>
         <BiSearch size={25} className="display" />
         <BiUser size={25}  className="display" />
         <BiHeart size={25} className="display" />

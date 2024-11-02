@@ -45,41 +45,41 @@ const Trending = () => {
           price={"89.00"}
         />
       </div>
-      <div className="gridbox">
-        <div className="row1">
-          <div className="box2 image1">
-            <h2 style={{ marginBottom: -2, marginLeft: -410, marginTop: 45 }}>
+      <div className="gridboxes">
+        <div className="rowe1">
+          <div className="boxe2 images1">
+            <h2>
               Cutlery
             </h2>
-            <p style={{ marginLeft: -420 }} className="underline">
+            <p className="underline">
               Shop now
             </p>
           </div>
-          <div className="box3 image2">
+          <div className="boxe3 images2">
             <h2>Apron</h2>
             <p className="underline">Shop now</p>
           </div>
-          <div className="box3 image3">
+          <div className="boxe3 images3">
             <h2>Napkins</h2>
             <p className="underline">Shop now</p>
           </div>
         </div>
 
-        <div className="row2">
-          <div className="box3 image4">
+        <div className="rowe2">
+          <div className="boxe3 images4">
             <h2>Pitchers</h2>
             <p className="underline">Shop now</p>
           </div>
-          <div className="box2 image5">
-            <h2 style={{ marginBottom: -2, marginLeft: -370, marginTop: 45 }}>
+          <div className="boxe2 images5">
+            <h2>
               Dinnerware
             </h2>
-            <p style={{ marginLeft: -420 }} className="underline">
+            <p className="underline">
               Shop now
             </p>
           </div>
-          <div className="box3 image6">
-            <h2 style={{ marginLeft: -100 }}>Accessories</h2>
+          <div className="boxe3 images6">
+            <h2 style={{marginLeft: -90}}>Accessories</h2>
             <p className="underline">Shop now</p>
           </div>
         </div>

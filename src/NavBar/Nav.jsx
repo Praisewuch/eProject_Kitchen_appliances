@@ -37,9 +37,6 @@ const Nav = () => {
             <Link to="/about" className="li">
               <li>About</li>
             </Link>
-            <Link to="/help" className="li">
-              <li>Help</li>
-            </Link>
           </ul>
         </div>
       <div className="icon-box">

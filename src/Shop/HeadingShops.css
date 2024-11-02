@@ -29,6 +29,35 @@
     position: absolute;
 }
 
+
+
+.oklo{
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+.imge3{
+   width: 75%;
+   /* filter: grayscale(33%); */
+   height: 634px;
+ 
+}
+
+
+.deypp{
+
+    font-family: 'Rubik', sans-serif;   
+    font-size: 33px;
+   
+
+}
+
+
 @media (max-width: 768px) {
 
      .imge2{

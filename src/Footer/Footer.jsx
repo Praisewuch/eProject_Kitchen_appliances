@@ -7,8 +7,8 @@ import { RiMastercardFill, RiVisaFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="foot">
+    <div className="footers">
+      <div className="foote">
         <div className="col1">
           <h2>Debaco</h2>
           <p className="edit">

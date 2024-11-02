@@ -466,23 +466,22 @@
     position: relative;
     z-index: 1;
   }
-  
+
+  .logo-box{
+    margin-left: 200px;
+  }
+  .linksHolder{
+    margin-left: -300px;
+  }
   
   
   @media only screen and (max-width: 2000px) {
-    .linksHolder{
-        display:none;
-    }
     .designTextHolder {
       gap: 10em;
     }
   }
   
   @media only screen and (max-width: 992px) {
-    .linksHolder ul {
-      display:none;
-    }
-  
     .designTextHolder {
       gap: 5em;
       flex-direction: column;

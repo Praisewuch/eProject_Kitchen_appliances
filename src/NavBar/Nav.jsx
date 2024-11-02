@@ -23,27 +23,6 @@ const Nav = () => {
           <b>Debaco</b>
         </h1>
       </div>
-      <ul className="list">
-        <li className="dropdown">
-          <div className="left red1">
-            <Link to={'/'} className="link">HOME</Link>
-            <FaAngleDown />
-          </div>
-        </li>
-        <li className="left red2">
-          <Link to='/shops' className="link">SHOP</Link>
-          <FaAngleDown />
-        </li>
-        <li className="left red3">
-          PAGES
-          <FaAngleDown />
-        </li>
-        <li className="left red4">
-        <Link to='/contact' className="link">CONTACT</Link>
-          <FaAngleDown />
-        </li>
-        <li>ABOUTUS</li>
-      </ul>
       <div className={`linksHolder ${menuOpen ? "active" : ""}`}>
           <ul>
             <Link to="/" className="li">
@@ -59,12 +38,12 @@ const Nav = () => {
               <li>About</li>
             </Link>
             <Link to="/help" className="li">
-              <li>Helpe</li>
+              <li>Help</li>
             </Link>
           </ul>
         </div>
       <div className="icon-box">
-        <GiHamburgerMenu  onClick={toggleMenu}/>
+        <GiHamburgerMenu  className="ham" onClick={toggleMenu}/>
         <BiSearch size={25} className="display" />
         <BiUser size={25}  className="display" />
         <BiHeart size={25} className="display" />

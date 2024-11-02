@@ -122,7 +122,7 @@ code {
 .col1 > p {
   font-size: 14px;
 }
-.foot {
+.foote {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,7 +131,7 @@ code {
 .display {
   display: none;
 }
-.footer {
+.footers {
   margin-top: 100px;
   height: 491.11px;
   width: 100%;
